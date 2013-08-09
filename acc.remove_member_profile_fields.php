@@ -53,7 +53,8 @@ class Remove_member_profile_fields_acc {
 		$this->EE->cp->add_to_head('
 			<script>
 				$(document).ready( function() {
-					$("#aol_im,#icq,#yahoo_im,#msn_im").parents("tr").remove()
+					$(".mainTable #aol_im,.mainTable #icq,.mainTable #yahoo_im,.mainTable #msn_im").parents("tr").remove();
+					$("#registerUser #aol_im,#registerUser #icq,#registerUser #yahoo_im,#registerUser #msn_im").parents("p").remove()
 				});
 			</script>
 		');
