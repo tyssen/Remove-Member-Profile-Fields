@@ -1,4 +1,4 @@
-Remove-Member-Profile-Fields
+Remove Member Profile Fields
 ============================
 
-Remove unnecessary ExpressionEngine member profile fields
+Remove ExpressionEngine member profile fields. You know, the ones you never use.
